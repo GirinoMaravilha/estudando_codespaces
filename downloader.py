@@ -39,7 +39,7 @@ class DowloaderImagem(Downloader):
 
 def main():
     
-    url = ""
+    url = "https://i.pinimg.com/736x/a4/8e/3d/a48e3de37547681f214525b19ed54e22.jpg"
 
     d = DowloaderImagem(url)
     d.baixar()
